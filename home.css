@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(172, 220, 204);
+    color:rgb(64, 32, 32);
+    
+}
+.nav {
+    overflow: auto;
+    background-color: rgb(64, 32, 3);
+}
+
+.nav a {
+    display: block;
+    color: bisque;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 20px;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 20px
+}
+
+.nav a:hover {
+    background-color: rgb(249, 182, 82);
+    color: rgb(194, 47, 121);
+}
