@@ -1,0 +1,146 @@
+body{
+    background-color: rgb(172, 220, 204);
+    color:rgb(64, 32, 32);
+    
+}
+.nav {
+    overflow: auto;
+    background-color: rgb(64, 32, 3);
+}
+
+.nav a {
+    display: block;
+    color: bisque;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 20px;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 20px
+}
+
+.nav a:hover {
+    background-color: rgb(249, 182, 82);
+    color: rgb(194, 47, 121);
+}
+
+/* RESERVATION SECTION */
+
+.reservation-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+
+/* LEFT SIDE */
+
+.reservation-text {
+
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+}
+
+.reservation-text h2 {
+
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.reservation-text p {
+
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.reservation-text img {
+
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+
+/* FORM */
+
+.reservation-form {
+
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+
+    background-color: bisque;
+    padding: 35px;
+    border-radius: 20px;
+    width: 400px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+form label {
+
+    display: block;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+form input {
+
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border-radius: 10px;
+    border: 1px solid rgb(64, 32, 3);
+}
+
+
+/* BUTTON */
+
+button {
+
+    width: 100%;
+    margin-top: 25px;
+    padding: 14px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(64, 32, 3);
+    color: bisque;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+button:hover {
+
+    background-color: rgb(249, 182, 82);
+    color: rgb(64, 32, 3);
+    }
+
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+    .reservation-container {
+        flex-direction: column;
+    }
+
+    .reservation-text img {
+        width: 90%;
+    }
+
+    form {
+        width: 90%;
+    }
+}
