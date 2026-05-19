@@ -38,7 +38,12 @@ body{
 #Choose {
     font-size: large;
 }
-   
+div {
+    color: rgb(212, 169, 113);
+    border-style: dotted;
+    border-color: rgb(206, 100, 100);
+    border-width: 5px;
+}
 
 
 
