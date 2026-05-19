@@ -3,24 +3,6 @@ body{
     color:rgb(64, 32, 32);
     
 }
-.header button:hover::after {
-    content: "📍Address: 155 Washington Ave, Albany NY 12210, Hours: Every days from 6:30am to 11:00pm";
-    position: absolute;
-    font-size: 12px;
-    color: #f79f9f;
-    font-style: oblique;
-    top: 10px;
-    margin-right: 5px;
-    text-align: right;
-}
-
-.nav {
-    overflow: auto;
-    background-color: rgb(184, 12, 12);
-}
-
-
-
 
 .nav {
     overflow: auto;
